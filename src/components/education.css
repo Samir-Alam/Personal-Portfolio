@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+.eduabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* About Me Section */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .row{
+    align-items: center;
+    border-radius: 50px;
+    margin: 0px 20px;
+    padding-right: 30px;
+    padding-left: 29px;
+    background-image: linear-gradient(210deg, #f0def7, #f1a6ff, #f11c1cd6);
+}
+
+.about .row img{
+    width: 30%;
+}
+
+.about .content{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 15px 0px;
+    color: #3e3434;
+}
+.content h3{
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+.content span{
+    color: black;
+    font-family: 'Noto Serif', serif;
+}
+.content .info-container{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+
+.sub-tag{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+/* Education Section */
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.education .box a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #505050;
+}
+
+.education .box{
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 15px;
+    border-radius: 40px;
+    height: fit-content;
+    margin-right: 25px;
+    background-image: linear-gradient(259deg, #f0def7, #a6deff, #1c3cf1d6);
+}
+
+.box .image {
+    margin-right: 10px;
+}
+.education .box .image img{
+    border-radius: 23px;
+    width: 270px;
+    height: -webkit-fill-available;
+}
+
+.collegeContent{
+    width: 331px;
+}
+
+.collegeContent h3{
+    font-size: 24px;
+    color: #1c1646;
+}
+
+.collegeContent p{
+    color: #8b3300;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.collegeContent h4{
+    font-size: inherit;
+}
+.resumebtn .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: #fff;
+    background: #576c60;
+    box-shadow: 0px 5px 10px rgb(16 16 14 / 60%);
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .resumebtn .btn span{
+    padding: 0px 10px;
+    color: white;
+  }
