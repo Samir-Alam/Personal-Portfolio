@@ -1,6 +1,5 @@
 //import logo from './logo.svg';
 import './App.css';
-import './components/skills.css';
 import './components/education.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -12,7 +11,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
-  // document.addEventListener('contextmenu', event => event.preventDefault());   //prevent right click on the page
+  //document.addEventListener('contextmenu', event => event.preventDefault());   //prevent right click on the page
   return (
     <div className="App">
       <NavBar />

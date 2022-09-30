@@ -2,8 +2,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import portfolio from "../assets/img/project-img1.png";
 import empty from "../assets/img/empty.png";
-// import projImg2 from "../assets/img/project-img2.png";
-// import projImg3 from "../assets/img/project-img3.png";
+import Netflix from "../assets/img/Netflix-clone1.png";
+
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -16,13 +16,15 @@ export const Projects = () => {
       title: "Portfolio Website",
       description: "My Personal Portfolio Website on which you are right now",
       imgUrl: portfolio,
-      githubLink: "#",
-      CodeLink: "#"
+      githubLink: "https://github.com/Samir-Alam/mdSamirPortfolio.github.io",
+      CodeLink: "https://samir-alam.github.io/mdSamirPortfolio.github.io/"
     },
     {
-      title: "Nothing",
-      description: "Nothing to show here",
-      imgUrl: empty,
+      title: "Netflix Clone",
+      description: "A clone of Netflix Using React",
+      imgUrl: Netflix,
+      githubLink: "https://github.com/Samir-Alam/Netflix-Clone",
+      CodeLink: 'https://netflix-clone-3a5f1.firebaseapp.com/'
     },
     {
       title: "Nothing",

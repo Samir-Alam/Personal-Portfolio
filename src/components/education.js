@@ -21,7 +21,7 @@ export const Education = () => {
                             </div>
                         </div>
                         <div className="resumebtn">
-                            <a href="https://drive.google.com/file/d/1e-0fy_dXo4nnVdfl6gTnLcAKXeFG3OyJ/view?usp=sharing" target={"_blank"} className="btn"><span>Resume</span>
+                            <a href="https://drive.google.com/file/d/1e-0fy_dXo4nnVdfl6gTnLcAKXeFG3OyJ/view?usp=sharing" target={"blank"} className="btn"><span>Resume</span>
                             <i className="fa fa-chevron-circle-right"></i>
                             </a>
                         </div>
@@ -29,7 +29,7 @@ export const Education = () => {
                 </div>
             </section>
             <section className="education">
-                <h2> <i className='fas fa-book-reader'></i> My Education</h2>
+                <h2> <i className='fas fa-book-reader edu-fa'></i> My Education</h2>
                 <div className="box">
                     <a href="http://tatadavsijua.org/">
                         <div className="image">
