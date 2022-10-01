@@ -16,7 +16,7 @@
 
 **Client :** React, JavaScript, HTML, CSS
 
-**Extra :** React-BootStrap, react-youtube, movie-trailer, axios, FireBase, Font Awesome, jQuery, Animate.css
+**Extra :** React-BootStrap, FireBase, Font Awesome, jQuery, Animate.css
 
 <hr>
 
